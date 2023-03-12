@@ -1,0 +1,1333 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the foreman_ansible package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: foreman_ansible 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-24 19:10+0100\n"
+"PO-Revision-Date: 2022-11-24 19:10+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../app/controllers/ansible_roles_controller.rb:54
+msgid "No added or removed roles nor variables."
+msgstr ""
+
+#: ../app/controllers/ansible_roles_controller.rb:55
+msgid "No added or removed roles nor variables detected on %s."
+msgstr ""
+
+#: ../app/controllers/ansible_variables_controller.rb:39
+msgid "No changes in variables detected on %s."
+msgstr ""
+
+#: ../app/controllers/ansible_variables_controller.rb:102
+msgid ""
+"No proxy found to import variables from, ensure that the smart proxy has the A"
+"nsible feature enabled."
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_inventories_controller.rb:12
+#: ../app/controllers/api/v2/ansible_inventories_controller.rb:17
+msgid "Show Ansible inventory for hosts"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_inventories_controller.rb:13
+#: ../app/controllers/api/v2/ansible_inventories_controller.rb:18
+msgid "IDs of hosts included in inventory"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_inventories_controller.rb:26
+#: ../app/controllers/api/v2/ansible_inventories_controller.rb:31
+msgid "Show Ansible inventory for hostgroups"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_inventories_controller.rb:27
+#: ../app/controllers/api/v2/ansible_inventories_controller.rb:32
+msgid "IDs of hostgroups included in inventory"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_inventories_controller.rb:40
+msgid "Schedule generating of Ansible Inventory report"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_inventories_controller.rb:41
+msgid "Hash of input values of type input=>value"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_inventories_controller.rb:43
+msgid "Report format, defaults to '%s'"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_override_values_controller.rb:17
+msgid "Override match"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_override_values_controller.rb:18
+msgid "Override value, required if omit is false"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_override_values_controller.rb:22
+msgid "Create an override value for a specific ansible variable"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_override_values_controller.rb:34
+msgid "Destroy an override value"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_playbooks_controller.rb:17
+msgid "Sync Ansible playbooks"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_playbooks_controller.rb:18
+#: ../app/controllers/api/v2/ansible_roles_controller.rb:52
+msgid "Smart Proxy to sync from"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_playbooks_controller.rb:19
+msgid "Ansible  playbooks names to be synced"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_playbooks_controller.rb:24
+msgid "Fetch Ansible playbooks available to be synced"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_playbooks_controller.rb:25
+#: ../app/controllers/api/v2/ansible_roles_controller.rb:72
+msgid "Smart Proxy to fetch from"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_playbooks_controller.rb:49
+#: ../app/controllers/api/v2/ansible_roles_controller.rb:92
+msgid "Smart proxy id is required"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_roles_controller.rb:19
+msgid "Show role"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_roles_controller.rb:23
+msgid "List Ansible roles"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_roles_controller.rb:30
+msgid "Deletes Ansible role"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_roles_controller.rb:36
+msgid "DEPRECATED: Import Ansible roles"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_roles_controller.rb:37
+#: ../app/controllers/api/v2/ansible_roles_controller.rb:64
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:74
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:85
+msgid "Smart Proxy to import from"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_roles_controller.rb:38
+msgid "Ansible role names to be imported"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_roles_controller.rb:40
+#: ../app/controllers/api/v2/ansible_roles_controller.rb:66
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:76
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:87
+msgid "Use sync instead, to sync roles from Smart Proxy with Ansible feature enabled"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_roles_controller.rb:51
+msgid "Sync Ansible roles"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_roles_controller.rb:53
+msgid "Ansible role names to be synced"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_roles_controller.rb:59
+msgid "No changes detected in specified Ansible Roles and their variables"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_roles_controller.rb:63
+msgid "DEPRECATED: Obsolete Ansible roles"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_roles_controller.rb:71
+msgid "Fetch Ansible roles available to be synced"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:19
+msgid "Show variable"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:23
+msgid "List Ansible variables"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:30
+msgid "Deletes Ansible variable"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:39
+msgid "Name of variable"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:40
+msgid "Role ID"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:41
+msgid "Default value of variable"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:42
+msgid "When enabled the parameter is hidden in the UI"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:43
+msgid "The order in which values are resolved"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:44
+msgid "Description of variable"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:45
+msgid "Types of validation values"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:46
+msgid "Used to enforce certain values for the parameter values"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:47
+msgid "Types of variable values"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:48
+msgid "Merge all matching values (only array/hash type)"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:49
+msgid "Include default value when merging all matching values"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:50
+msgid "Remove duplicate values (only array type)"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:51
+msgid "Whether to override variable or not"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:55
+msgid "Create Ansible variable"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:62
+msgid "Updates Ansible variable"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:72
+msgid ""
+"DEPRECATED: Import Ansible variables. This will only import variables for alre"
+"ady existing roles, it will not import any new roles"
+msgstr ""
+
+#: ../app/controllers/api/v2/ansible_variables_controller.rb:83
+msgid ""
+"DEPRECATED: Obsolete Ansible variables. This will only obsolete variables for "
+"already existing roles, it will not delete any old roles"
+msgstr ""
+
+#:
+#: ../app/controllers/foreman_ansible/api/v2/hostgroups_controller_extensions.rb:20
+msgid "Runs all Ansible roles on a hostgroup"
+msgstr ""
+
+#:
+#: ../app/controllers/foreman_ansible/api/v2/hostgroups_controller_extensions.rb:30
+msgid "Runs all Ansible roles on hostgroups"
+msgstr ""
+
+#:
+#: ../app/controllers/foreman_ansible/api/v2/hostgroups_controller_extensions.rb:31
+msgid "IDs of hostgroups to play roles on"
+msgstr ""
+
+#:
+#: ../app/controllers/foreman_ansible/api/v2/hostgroups_controller_extensions.rb:42
+msgid "List all Ansible roles for a hostgroup"
+msgstr ""
+
+#:
+#: ../app/controllers/foreman_ansible/api/v2/hostgroups_controller_extensions.rb:57
+msgid "Assigns Ansible roles to a hostgroup"
+msgstr ""
+
+#:
+#: ../app/controllers/foreman_ansible/api/v2/hostgroups_controller_extensions.rb:60
+msgid "Ansible roles to assign to a hostgroup"
+msgstr ""
+
+#:
+#: ../app/controllers/foreman_ansible/api/v2/hostgroups_param_group_extensions.rb:13
+#: ../app/controllers/foreman_ansible/api/v2/hosts_param_group_extensions.rb:13
+msgid "IDs of associated ansible roles"
+msgstr ""
+
+#: ../app/controllers/foreman_ansible/api/v2/hosts_controller_extensions.rb:26
+msgid "Runs all Ansible roles on a host"
+msgstr ""
+
+#: ../app/controllers/foreman_ansible/api/v2/hosts_controller_extensions.rb:35
+msgid "Runs all Ansible roles on hosts"
+msgstr ""
+
+#: ../app/controllers/foreman_ansible/api/v2/hosts_controller_extensions.rb:36
+msgid "IDs of hosts to play roles on"
+msgstr ""
+
+#: ../app/controllers/foreman_ansible/api/v2/hosts_controller_extensions.rb:46
+msgid "List all Ansible roles for a host"
+msgstr ""
+
+#: ../app/controllers/foreman_ansible/api/v2/hosts_controller_extensions.rb:58
+msgid "Assigns Ansible roles to a host"
+msgstr ""
+
+#: ../app/controllers/foreman_ansible/api/v2/hosts_controller_extensions.rb:61
+msgid "Ansible roles to assign to a host"
+msgstr ""
+
+#:
+#: ../app/controllers/foreman_ansible/concerns/hostgroups_controller_extensions.rb:27
+msgid "Host group has no associated hosts"
+msgstr ""
+
+#: ../app/controllers/foreman_ansible/concerns/job_invocation_helper.rb:13
+msgid "There are no Ansible roles to play"
+msgstr ""
+
+#: ../app/controllers/foreman_ansible/concerns/job_invocation_helper.rb:15
+msgid "Could not run Ansible roles for %{host}"
+msgstr ""
+
+#: ../app/graphql/mutations/ansible_variable_overrides/delete.rb:17
+msgid "Host not found by id: %s"
+msgstr ""
+
+#: ../app/graphql/mutations/ansible_variable_overrides/delete.rb:18
+msgid "Ansible Variable not found by id: %s"
+msgstr ""
+
+#: ../app/helpers/foreman_ansible/ansible_hostgroups_helper.rb:7
+#: ../app/helpers/foreman_ansible/ansible_hostgroups_helper.rb:9
+#: ../app/helpers/foreman_ansible/hosts_helper.rb:9
+msgid "Run all Ansible roles"
+msgstr ""
+
+#: ../app/helpers/foreman_ansible/ansible_hostgroups_helper.rb:9
+msgid "Run all Ansible roles on hosts belonging to this host group"
+msgstr ""
+
+#: ../app/helpers/foreman_ansible/ansible_reports_helper.rb:57
+msgid "No additional data"
+msgstr ""
+
+#: ../app/helpers/foreman_ansible/ansible_roles_data_preparations.rb:5
+msgid "Add"
+msgstr ""
+
+#: ../app/helpers/foreman_ansible/ansible_roles_data_preparations.rb:5
+msgid "Remove"
+msgstr ""
+
+#: ../app/helpers/foreman_ansible/ansible_roles_data_preparations.rb:5
+msgid "Update"
+msgstr ""
+
+#: ../app/helpers/foreman_ansible/ansible_roles_data_preparations.rb:6
+msgid "Import Role"
+msgstr ""
+
+#: ../app/helpers/foreman_ansible/ansible_roles_data_preparations.rb:6
+msgid "Remove Role"
+msgstr ""
+
+#: ../app/helpers/foreman_ansible/ansible_roles_data_preparations.rb:6
+msgid "Update Role Variables"
+msgstr ""
+
+#: ../app/helpers/foreman_ansible/ansible_roles_helper.rb:8
+msgid "Import from %s"
+msgstr ""
+
+#: ../app/helpers/foreman_ansible/ansible_roles_helper.rb:23
+msgid "Ansible Role"
+msgstr ""
+
+#: ../app/helpers/foreman_ansible/ansible_roles_helper.rb:29
+msgid "Import"
+msgstr ""
+
+#: ../app/helpers/foreman_ansible/ansible_roles_helper.rb:35
+msgid "%s ago"
+msgstr ""
+
+#: ../app/helpers/foreman_ansible/smart_proxies_helper.rb:35
+msgid "Upgrade"
+msgstr ""
+
+#: ../app/jobs/sync_roles_and_variables.rb:18
+msgid "Import roles And Variables"
+msgstr ""
+
+#: ../app/lib/actions/foreman_ansible/helpers/play_roles_description.rb:13
+msgid "Foreman"
+msgstr ""
+
+#: ../app/lib/proxy_api/ansible.rb:27
+msgid "Unable to get roles from Ansible"
+msgstr ""
+
+#: ../app/lib/proxy_api/ansible.rb:34 ../app/lib/proxy_api/ansible.rb:41
+msgid "Unable to get roles/variables from Ansible"
+msgstr ""
+
+#: ../app/lib/proxy_api/ansible.rb:47
+msgid "Unable to get playbook's names from Ansible"
+msgstr ""
+
+#: ../app/lib/proxy_api/ansible.rb:54
+msgid "Unable to get playbooks from Ansible"
+msgstr ""
+
+#: ../app/models/foreman_ansible/ansible_provider.rb:68
+msgid "Tags"
+msgstr ""
+
+#: ../app/models/foreman_ansible/ansible_provider.rb:75
+msgid "Include/Exclude Tags"
+msgstr ""
+
+#: ../app/models/foreman_ansible/ansible_provider.rb:87
+msgid "Ansible provider specific inputs"
+msgstr ""
+
+#: ../app/models/foreman_ansible/ansible_provider.rb:92
+msgid "A comma separated list of tags to use for Ansible run"
+msgstr ""
+
+#: ../app/models/foreman_ansible/ansible_provider.rb:97
+msgid "Include\\Exclude tags for Ansible run"
+msgstr ""
+
+#: ../app/services/foreman_ansible/import_playbooks_error_notification.rb:35
+#: ../app/services/foreman_ansible/import_playbooks_success_notification.rb:30
+msgid "Task Details"
+msgstr ""
+
+#: ../app/services/foreman_ansible/insights_notification_builder.rb:49
+msgid "Remediation Plan"
+msgstr ""
+
+#: ../app/services/foreman_ansible/insights_notification_builder.rb:59
+#: ../db/seeds.d/90_notification_blueprints.rb:13
+msgid "Job Details"
+msgstr ""
+
+#: ../app/services/foreman_ansible/proxy_api.rb:13
+msgid "Proxy not found"
+msgstr ""
+
+#: ../app/views/ansible_roles/import.html.erb:1
+msgid "Changed Ansible roles"
+msgstr ""
+
+#: ../app/views/ansible_roles/index.html.erb:1
+#: ../app/views/ansible_roles/welcome.html.erb:1
+#: ../app/views/ansible_roles/welcome.html.erb:6
+#: ../app/views/foreman_ansible/ansible_roles/_select_tab_title.html.erb:1
+msgid "Ansible Roles"
+msgstr ""
+
+#: ../app/views/ansible_roles/index.html.erb:9
+msgid "Role|Name"
+msgstr ""
+
+#: ../app/views/ansible_roles/index.html.erb:10
+msgid "Hostgroups"
+msgstr ""
+
+#: ../app/views/ansible_roles/index.html.erb:11
+msgid "Hosts"
+msgstr ""
+
+#: ../app/views/ansible_roles/index.html.erb:12
+#: ../app/views/ansible_roles/index.html.erb:29
+#: ../lib/foreman_ansible/register.rb:220
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/AllRolesModal/AllRolesTable.js:18
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/RolesTable.js:30
+#: ../webpack/components/AnsibleHostDetail/constants.js:6
+msgid "Variables"
+msgstr ""
+
+#: ../app/views/ansible_roles/index.html.erb:13
+msgid "Imported at"
+msgstr ""
+
+#: ../app/views/ansible_roles/index.html.erb:14
+#: ../app/views/ansible_variables/index.html.erb:15
+msgid "Actions"
+msgstr ""
+
+#: ../app/views/ansible_roles/index.html.erb:35
+#: ../app/views/ansible_variables/index.html.erb:40
+msgid "Delete %s?"
+msgstr ""
+
+#: ../app/views/ansible_roles/welcome.html.erb:7
+msgid ""
+"No Ansible Roles were found in Foreman. If you want to assign roles to your ho"
+"sts,\n"
+"             you have to import them first."
+msgstr ""
+
+#: ../app/views/ansible_roles/welcome.html.erb:10
+msgid "Learn more about this in the documentation."
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:4
+msgid "Ansible Variable Details (Imported)"
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:4
+msgid "Ansible Variable Details"
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:11
+msgid "Default Behavior"
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:12
+msgid "Override the default value of the Ansible variable."
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:14
+msgid ""
+"Mark the variable to be managed by Foreman. When the Ansible role of this vari"
+"able is assigned to a host, the default value will be added to Ansible invento"
+"ry as a host variable. Specify matchers to set a different value for such vari"
+"able."
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:27
+msgid "Value to use when there is no match."
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:30
+msgid "Hidden Value"
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:33
+msgid "Hide all values for this parameter."
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:39
+msgid "Optional Input Validator"
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:41
+msgid ""
+"Before including these variables on your playbooks, Foreman will validate that"
+" your variables comply with the validation."
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:44
+msgid ""
+"If checked, will raise an error if there is no default value and no matcher pr"
+"ovide a value."
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:53
+msgid "Prioritize Attribute Order"
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:54
+msgid "Set the order in which values are resolved."
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:55
+msgid "Order"
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:56
+msgid ""
+"The order in which matchers keys are processed, first match wins.<br> You may "
+"use multiple attributes as a matcher key, for example, an order of <code>host "
+"group, environment</code> would expect a matcher such as <code>hostgroup = \"we"
+"b servers\", environment = production</code>"
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:59
+msgid ""
+"Continue to look for matches after first find (only array/hash type)? Note: me"
+"rging overrides ignores all matchers that are omitted."
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:61
+msgid "Include default value when merging all matching values."
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:64
+msgid "Avoid duplicate values when merging them (only array type)?"
+msgstr ""
+
+#: ../app/views/ansible_variables/_fields.erb:68
+msgid "Specify Matchers"
+msgstr ""
+
+#: ../app/views/ansible_variables/edit.html.erb:4
+#: ../app/views/ansible_variables/index.html.erb:1
+#: ../app/views/ansible_variables/new.html.erb:4
+msgid "Ansible Variables"
+msgstr ""
+
+#: ../app/views/ansible_variables/edit.html.erb:8
+msgid "Edit %s"
+msgstr ""
+
+#: ../app/views/ansible_variables/edit.html.erb:13
+msgid "Edit Ansible Variable"
+msgstr ""
+
+#: ../app/views/ansible_variables/index.html.erb:4
+msgid "New Ansible Variable"
+msgstr ""
+
+#: ../app/views/ansible_variables/index.html.erb:11
+msgid "Variable|Name"
+msgstr ""
+
+#: ../app/views/ansible_variables/index.html.erb:12
+msgid "Variable|Role"
+msgstr ""
+
+#: ../app/views/ansible_variables/index.html.erb:13
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/AnsibleVariableOverridesTable.js:61
+msgid "Type"
+msgstr ""
+
+#: ../app/views/ansible_variables/index.html.erb:14
+msgid "Imported?"
+msgstr ""
+
+#: ../app/views/ansible_variables/index.html.erb:22
+msgid "Overriden"
+msgstr ""
+
+#: ../app/views/ansible_variables/new.html.erb:8
+#: ../app/views/ansible_variables/new.html.erb:13
+msgid "Create Ansible Variable"
+msgstr ""
+
+#: ../app/views/foreman_ansible/config_reports/_ansible.html.erb:5
+msgid "Ansible check mode"
+msgstr ""
+
+#: ../app/views/foreman_ansible/config_reports/_ansible.html.erb:6
+msgid "Notice that ansible roles run in check mode."
+msgstr ""
+
+#: ../app/views/foreman_ansible/config_reports/_ansible.html.erb:12
+msgid "Level"
+msgstr ""
+
+#: ../app/views/foreman_ansible/config_reports/_ansible.html.erb:13
+msgid "Task"
+msgstr ""
+
+#: ../app/views/foreman_ansible/config_reports/_ansible.html.erb:14
+msgid "Message"
+msgstr ""
+
+#: ../app/views/foreman_ansible/config_reports/_ansible.html.erb:39
+msgid "Nothing to show"
+msgstr ""
+
+#: ../db/seeds.d/90_notification_blueprints.rb:5
+#: ../webpack/components/AnsibleHostDetail/constants.js:8
+msgid "Jobs"
+msgstr ""
+
+#: ../db/seeds.d/90_notification_blueprints.rb:7
+msgid "Insights remediation on %{hosts_count} host(s) has finished successfully"
+msgstr ""
+
+#: ../db/seeds.d/90_notification_blueprints.rb:18
+#: ../db/seeds.d/90_notification_blueprints.rb:25
+#: ../db/seeds.d/90_notification_blueprints.rb:30
+#: ../lib/foreman_ansible/register.rb:216
+#: ../webpack/components/AnsibleHostDetail/constants.js:5
+msgid "Roles"
+msgstr ""
+
+#: ../db/seeds.d/90_notification_blueprints.rb:20
+msgid "Import roles and variables has finished successfully"
+msgstr ""
+
+#: ../db/seeds.d/90_notification_blueprints.rb:36
+#: ../db/seeds.d/90_notification_blueprints.rb:43
+msgid "Playbooks"
+msgstr ""
+
+#: ../db/seeds.d/90_notification_blueprints.rb:38
+msgid "Import playbooks has finished successfully"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:7 ../lib/foreman_ansible/register.rb:214
+msgid "Ansible"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:10
+msgid ""
+"Use this to supply a path to an SSH Private Key that Ansible will use in lieu "
+"of a password Override with \"ansible_ssh_private_key_file\" host parameter"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:15
+msgid "Private Key Path"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:18
+msgid ""
+"Use this connection type by default when running Ansible playbooks. You can ov"
+"erride this on hosts by adding a parameter \"ansible_connection\""
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:22
+msgid "Connection type"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:25
+msgid ""
+"Enable/disable WinRM server certificate validation when running Ansible playbo"
+"oks. You can override this on hosts by adding a parameter \"ansible_winrm_serve"
+"r_cert_validation\""
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:30
+msgid "WinRM cert Validation"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:33
+msgid ""
+"Foreman will add this level of verbosity for additional debugging output when "
+"running Ansible playbooks."
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:36
+msgid "Default verbosity level"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:39
+msgid "Disabled"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:40
+msgid "Level 1 (-v)"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:41
+msgid "Level 2 (-vv)"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:42
+msgid "Level 3 (-vvv)"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:43
+msgid "Level 4 (-vvvv)"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:47
+msgid ""
+"Timeout (in seconds) to set when Foreman will trigger a play Ansible roles tas"
+"k after a host is fully provisioned. Set this to the maximum time you expect a"
+" host to take until it is ready after a reboot."
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:52
+msgid "Post-provision timeout"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:55
+msgid "Timeout (in minutes) when hosts should have reported."
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:57
+msgid "Ansible report timeout"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:60
+msgid ""
+"Disable host configuration status turning to out of sync for %{cfgmgmt} after "
+"report does not arrive within configured interval"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:64
+msgid "%{cfgmgmt} out of sync disabled"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:67
+msgid "Foreman will use this template to schedule the report with Ansible inventory"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:70
+msgid "Default Ansible inventory report template"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:73
+msgid ""
+"Those roles will be excluded when importing roles from smart proxy, The expect"
+"ed input is comma separated values and you can use * wildcard metacharactersFo"
+"r example: foo*, *b*,*bar"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:77
+msgid "Ansible roles to ignore"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:80
+msgid ""
+"Number of tasks which should be sent to the smart proxy in one request, if for"
+"eman_tasks_proxy_batch_trigger is enabled. If set, overrides foreman_tasks_pro"
+"xy_batch_size setting for Ansible jobs."
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:84
+msgid "Proxy tasks batch size for Ansible"
+msgstr ""
+
+#: ../lib/foreman_ansible/register.rb:250
+#: ../lib/foreman_ansible/register.rb:256
+msgid "Update Smart Proxy"
+msgstr ""
+
+#: ../lib/foreman_ansible/remote_execution.rb:20
+msgid "Run Ansible roles"
+msgstr ""
+
+#: ../lib/foreman_ansible/remote_execution.rb:21
+msgid "Runs an Ansible playbook which contains all the roles defined for a host"
+msgstr ""
+
+#: ../lib/foreman_ansible/remote_execution.rb:27
+msgid "Ansible: Run Insights maintenance plan"
+msgstr ""
+
+#: ../lib/foreman_ansible/remote_execution.rb:28
+msgid "Runs a given maintenance plan from Red Hat Access Insights given an ID."
+msgstr ""
+
+#: ../lib/foreman_ansible/remote_execution.rb:35
+msgid "Run playbook"
+msgstr ""
+
+#: ../lib/foreman_ansible/remote_execution.rb:36
+msgid "Run an Ansible playbook against given hosts"
+msgstr ""
+
+#: ../lib/foreman_ansible/remote_execution.rb:41
+msgid "Enable web console"
+msgstr ""
+
+#: ../lib/foreman_ansible/remote_execution.rb:42
+msgid "Run an Ansible playbook to enable web console on given hosts"
+msgstr ""
+
+#: ../lib/foreman_ansible/remote_execution.rb:47
+msgid "Upgrade Capsules on given hosts"
+msgstr ""
+
+#: ../lib/foreman_ansible/remote_execution.rb:48
+msgid "Upgrade Capsules on given Capsule server hosts"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/AnsibleVariableOverridesTable.js:59
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/AllRolesModal/AllRolesTable.js:18
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/RolesTable.js:30
+msgid "Name"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/AnsibleVariableOverridesTable.js:60
+msgid "Ansible role"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/AnsibleVariableOverridesTable.js:62
+msgid "Value"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/AnsibleVariableOverridesTable.js:63
+msgid "Source attribute"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/AnsibleVariableOverridesTable.js:114
+msgid "Delete"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/AnsibleVariableOverridesTable.js:118
+msgid "Delete Ansible variable override"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/AnsibleVariableOverridesTable.js:122
+msgid "Are you sure you want to delete override for %s?"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/AnsibleVariableOverridesTableHelper.js:13
+msgid "Default value"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/AnsibleVariableOverridesTableHelper.js:49
+msgid "Ansible variable override was successfully deleted."
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/AnsibleVariableOverridesTableHelper.js:63
+msgid "There was a following error when deleting Ansible variable override: %s"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/AnsibleVariableOverridesTableHelper.js:82
+msgid "Invalid, expected to match a regex: %s"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/AnsibleVariableOverridesTableHelper.js:94
+msgid "Invalid, expected one of: %s"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/AnsibleVariableOverridesTableHelper.js:100
+msgid "is required"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/EditableActionHelper.js:6
+msgid "There was a following error when changing Ansible variable override: %s"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/EditableActionHelper.js:38
+msgid "Ansible variable override successfully changed."
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/EditableValue.js:37
+msgid "true"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/EditableValue.js:38
+msgid "false"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/index.js:45
+msgid "No Ansible variables found for Host"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/AnsibleVariableOverrides/index.js:46
+msgid "Only variables marked to Override are shown here."
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/JobsTabHelper.js:57
+msgid "There was a following error when deleting Ansible config job: %s"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/JobsTabHelper.js:75
+msgid "Ansible job was successfully canceled."
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/JobsTabHelper.js:120
+msgid "(from host group)"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/NewRecurringJobHelper.js:8
+msgid "hourly"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/NewRecurringJobHelper.js:9
+msgid "daily"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/NewRecurringJobHelper.js:10
+msgid "weekly"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/NewRecurringJobHelper.js:11
+msgid "monthly"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/NewRecurringJobHelper.js:16
+msgid "Must not be in the past"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/NewRecurringJobHelper.js:22
+msgid "Required field"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/NewRecurringJobHelper.js:72
+msgid "There was a following error when creating Ansible job: %s"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/NewRecurringJobHelper.js:92
+msgid "Ansible job was successfully created."
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/NewRecurringJobModal.js:69
+msgid "Submit"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/NewRecurringJobModal.js:79
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/RecurringJobsTable.js:51
+msgid "Cancel"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/NewRecurringJobModal.js:89
+msgid "This job will run all the assigned Ansible roles."
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/NewRecurringJobModal.js:91
+msgid "For more advanced scheduling options"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/NewRecurringJobModal.js:102
+msgid "view remote execution page."
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/NewRecurringJobModal.js:110
+msgid "Schedule recurring Ansible roles job"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/PreviousJobsTable.js:23
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/RecurringJobsTable.js:31
+msgid "Description"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/PreviousJobsTable.js:24
+msgid "Result"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/PreviousJobsTable.js:25
+msgid "State"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/PreviousJobsTable.js:26
+msgid "Executed at"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/PreviousJobsTable.js:27
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/RecurringJobsTable.js:31
+msgid "Schedule"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/PreviousJobsTable.js:32
+msgid "Previously executed jobs"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/RecurringJobsTable.js:31
+msgid "Next Run"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/RecurringJobsTable.js:39
+msgid "Cancel Ansible config job"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/RecurringJobsTable.js:40
+msgid "Are you sure you want to cancel Ansible config job?"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/RecurringJobsTable.js:62
+msgid "Scheduled recurring jobs"
+msgstr ""
+
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/index.js:41
+msgid "Schedule recurring job"
+msgstr ""
+
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/index.js:56
+msgid "No config job for Ansible roles scheduled"
+msgstr ""
+
+#: ../webpack/components/AnsibleHostDetail/components/JobsTab/index.js:72
+msgid "No previous job executions found"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/AllRolesModal/AllRolesTable.js:18
+msgid "Source"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/AllRolesModal/AllRolesTable.js:57
+msgid "Inherited from Hostgroup"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/AllRolesModal/AllRolesTable.js:58
+msgid "Directly assigned to Host"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/AllRolesModal/index.js:24
+msgid "All assigned Ansible roles"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/AllRolesModal/index.js:26
+msgid ""
+"This list consists of host assigned roles and group assigned roles. Group assi"
+"gned roles will always be executed prior to host assigned roles."
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/AllRolesModal/index.js:62
+msgid "No Ansible roles assigned"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/EditRolesModal/EditRolesForm.js:59
+msgid "Confirm"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/EditRolesModal/EditRolesModalHelper.js:18
+msgid "There was a following error when assigning Ansible Roles: %s"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/EditRolesModal/EditRolesModalHelper.js:33
+msgid "Ansible Roles were successfully assigned."
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/EditRolesModal/index.js:28
+msgid "Edit Ansible Roles"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/EditRolesModal/index.js:30
+msgid ""
+"Add, remove or reorder host assigned Ansible roles. This host has also group a"
+"ssigned roles that are not displayed here and will always be executed prior to"
+" host assigned roles."
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/EditRolesModal/index.js:42
+msgid "Close"
+msgstr ""
+
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/RolesTable.js:39
+msgid "Edit Ansible roles"
+msgstr ""
+
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/RolesTable.js:50
+msgid "Ansible roles assigned directly to host"
+msgstr ""
+
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/RolesTable.js:52
+msgid "view all assigned roles"
+msgstr ""
+
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/index.js:41
+msgid "Assign roles directly to the host"
+msgstr ""
+
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/index.js:59
+msgid "View inherited roles"
+msgstr ""
+
+#: ../webpack/components/AnsibleHostDetail/components/RolesTab/index.js:73
+msgid "No roles assigned directly to the host"
+msgstr ""
+
+#: ../webpack/components/AnsibleHostDetail/constants.js:7
+msgid "Inventory"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleRolesAndVariables/AnsibleRolesAndVariablesActions.js:26
+msgid "Import roles and variables started: "
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleRolesAndVariables/AnsibleRolesAndVariablesActions.js:32
+msgid "view the task in progress"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleRolesAndVariables/AnsibleRolesAndVariablesActions.js:37
+msgid "Failed to import roles and variables "
+msgstr ""
+
+#: ../webpack/components/AnsibleRolesSwitcher/AnsibleRolesSwitcher.js:73
+msgid "Available Ansible Roles"
+msgstr ""
+
+#: ../webpack/components/AnsibleRolesSwitcher/AnsibleRolesSwitcher.js:89
+msgid "Assigned Ansible Roles"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleRolesSwitcher/components/AnsiblePermissionDenied.js:8
+msgid "You are not authorized to perform this action."
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleRolesSwitcher/components/AnsiblePermissionDenied.js:10
+msgid ""
+"Please request one of the required permissions listed below from a Foreman adm"
+"inistrator:"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleRolesSwitcher/components/AnsiblePermissionDenied.js:27
+msgid "Permission Denied"
+msgstr ""
+
+#: ../webpack/components/AnsibleRolesSwitcher/components/AnsibleRole.js:14
+msgid "This Ansible role is inherited from parent host group"
+msgstr ""
+
+#: ../webpack/components/AnsibleRolesSwitcher/components/AnsibleRole.js:15
+msgid "This Ansible role is inherited from host group"
+msgstr ""
+
+#:
+#: ../webpack/components/AnsibleRolesSwitcher/components/OrderedRolesTooltip.js:9
+msgid ""
+"Use drag and drop to change order of the roles. Ordering of roles is respected"
+" for Ansible runs, inherited roles are always before those assigned directly"
+msgstr ""
+
+#: ../webpack/components/DualList/ListControls.js:13
+msgid "Add selected"
+msgstr ""
+
+#: ../webpack/components/DualList/ListControls.js:24
+msgid "Add all"
+msgstr ""
+
+#: ../webpack/components/DualList/ListControls.js:35
+msgid "Remove all"
+msgstr ""
+
+#: ../webpack/components/DualList/ListControls.js:46
+msgid "Remove selected"
+msgstr ""
+
+#: ../webpack/components/DualList/SelectedStatus.js:8
+msgid "%(selectedCount)s of %(totalCount)s items selected"
+msgstr ""
+
+#: ../webpack/components/DualList/index.js:66
+msgid "Available Ansible roles"
+msgstr ""
+
+#: ../webpack/components/DualList/index.js:84
+msgid "Host assigned Ansible roles"
+msgstr ""
+
+#: ../webpack/components/ErrorState.js:13
+msgid "Error!"
+msgstr ""
+
+#: ../webpack/components/withLoading.js:26
+msgid "Nothing Found!"
+msgstr ""
+
+#: ../webpack/components/withLoading.js:61
+#: ../webpack/components/withLoading.js:73
+msgid "Permission denied"
+msgstr ""
+
+#: ../webpack/permissionsHelper.js:34
+msgid "You are not authorized to view the page. "
+msgstr ""
+
+#: ../webpack/permissionsHelper.js:37
+msgid "Request the following permissions from administrator: %s."
+msgstr ""
+
+#: ../webpack/routes/HostgroupJobs/index.js:11
+msgid "Configure Recurring Job"
+msgstr ""
+
+#: action_names.rb:2
+msgid "Action with sub plans"
+msgstr ""
+
+#: action_names.rb:3
+msgid "Import facts"
+msgstr ""
+
+#: action_names.rb:4
+msgid "Import Puppet classes"
+msgstr ""
+
+#: action_names.rb:5
+msgid "Remote action:"
+msgstr ""
+
+#: gemspec.rb:2
+msgid "Ansible support in Foreman"
+msgstr ""

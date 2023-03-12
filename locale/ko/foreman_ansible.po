@@ -1,0 +1,881 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the foreman_ansible package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# 0868a4d1af5275b3f70b0a6dac4c99a4, 2022
+# Bryan Kearney <bryan.kearney@gmail.com>, 2022
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: foreman_ansible 10.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2018-11-14 21:36+0000\n"
+"Last-Translator: Bryan Kearney <bryan.kearney@gmail.com>, 2022\n"
+"Language-Team: Korean (https://www.transifex.com/foreman/teams/114/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "%(selectedCount)s of %(totalCount)s items selected"
+msgstr ""
+
+msgid "%s ago"
+msgstr "%s 전 "
+
+msgid "%{cfgmgmt} out of sync disabled"
+msgstr ""
+
+msgid "(from host group)"
+msgstr ""
+
+msgid "A comma separated list of tags to use for Ansible run"
+msgstr ""
+
+msgid "Action with sub plans"
+msgstr "하위 계획이 있는 작업"
+
+msgid "Actions"
+msgstr "동작 "
+
+msgid "Add"
+msgstr "추가 "
+
+msgid "Add all"
+msgstr ""
+
+msgid "Add selected"
+msgstr ""
+
+msgid "Add, remove or reorder host assigned Ansible roles. This host has also group assigned roles that are not displayed here and will always be executed prior to host assigned roles."
+msgstr ""
+
+msgid "All assigned Ansible roles"
+msgstr ""
+
+msgid "Ansible"
+msgstr ""
+
+msgid "Ansible  playbooks names to be synced"
+msgstr ""
+
+msgid "Ansible Role"
+msgstr ""
+
+msgid "Ansible Roles"
+msgstr ""
+
+msgid "Ansible Roles were successfully assigned."
+msgstr ""
+
+msgid "Ansible Variable Details"
+msgstr ""
+
+msgid "Ansible Variable Details (Imported)"
+msgstr ""
+
+msgid "Ansible Variable not found by id: %s"
+msgstr ""
+
+msgid "Ansible Variables"
+msgstr ""
+
+msgid "Ansible check mode"
+msgstr ""
+
+msgid "Ansible job was successfully canceled."
+msgstr ""
+
+msgid "Ansible job was successfully created."
+msgstr ""
+
+msgid "Ansible provider specific inputs"
+msgstr ""
+
+msgid "Ansible report timeout"
+msgstr ""
+
+msgid "Ansible role"
+msgstr ""
+
+msgid "Ansible role names to be imported"
+msgstr ""
+
+msgid "Ansible role names to be synced"
+msgstr ""
+
+msgid "Ansible roles assigned directly to host"
+msgstr ""
+
+msgid "Ansible roles to assign to a host"
+msgstr ""
+
+msgid "Ansible roles to assign to a hostgroup"
+msgstr ""
+
+msgid "Ansible roles to ignore"
+msgstr ""
+
+msgid "Ansible support in Foreman"
+msgstr ""
+
+msgid "Ansible variable override successfully changed."
+msgstr ""
+
+msgid "Ansible variable override was successfully deleted."
+msgstr ""
+
+msgid "Ansible: Run Insights maintenance plan"
+msgstr ""
+
+msgid "Are you sure you want to cancel Ansible config job?"
+msgstr ""
+
+msgid "Are you sure you want to delete override for %s?"
+msgstr ""
+
+msgid "Assign roles directly to the host"
+msgstr ""
+
+msgid "Assigned Ansible Roles"
+msgstr ""
+
+msgid "Assigns Ansible roles to a host"
+msgstr ""
+
+msgid "Assigns Ansible roles to a hostgroup"
+msgstr ""
+
+msgid "Available Ansible Roles"
+msgstr ""
+
+msgid "Available Ansible roles"
+msgstr ""
+
+msgid "Avoid duplicate values when merging them (only array type)?"
+msgstr "값을 병합할 때 중복 값을 제외하시겠습니까(배열 유형만)?"
+
+msgid "Before including these variables on your playbooks, Foreman will validate that your variables comply with the validation."
+msgstr ""
+
+msgid "Cancel"
+msgstr "취소 "
+
+msgid "Cancel Ansible config job"
+msgstr ""
+
+msgid "Changed Ansible roles"
+msgstr ""
+
+msgid "Close"
+msgstr "종료 "
+
+msgid "Configure Recurring Job"
+msgstr ""
+
+msgid "Confirm"
+msgstr "확인"
+
+msgid "Connection type"
+msgstr ""
+
+msgid "Continue to look for matches after first find (only array/hash type)? Note: merging overrides ignores all matchers that are omitted."
+msgstr ""
+
+msgid "Could not run Ansible roles for %{host}"
+msgstr ""
+
+msgid "Create Ansible Variable"
+msgstr ""
+
+msgid "Create Ansible variable"
+msgstr ""
+
+msgid "Create an override value for a specific ansible variable"
+msgstr ""
+
+msgid "DEPRECATED: Import Ansible roles"
+msgstr ""
+
+msgid "DEPRECATED: Import Ansible variables. This will only import variables for already existing roles, it will not import any new roles"
+msgstr ""
+
+msgid "DEPRECATED: Obsolete Ansible roles"
+msgstr ""
+
+msgid "DEPRECATED: Obsolete Ansible variables. This will only obsolete variables for already existing roles, it will not delete any old roles"
+msgstr ""
+
+msgid "Default Ansible inventory report template"
+msgstr ""
+
+msgid "Default Behavior"
+msgstr ""
+
+msgid "Default value"
+msgstr "기본값 "
+
+msgid "Default value of variable"
+msgstr "변수의 기본값"
+
+msgid "Default verbosity level"
+msgstr ""
+
+msgid "Delete"
+msgstr "삭제 "
+
+msgid "Delete %s?"
+msgstr "%s 을(를) 삭제하시겠습니까?"
+
+msgid "Delete Ansible variable override"
+msgstr ""
+
+msgid "Deletes Ansible role"
+msgstr ""
+
+msgid "Deletes Ansible variable"
+msgstr ""
+
+msgid "Description"
+msgstr "설명 "
+
+msgid "Description of variable"
+msgstr "변수 설명"
+
+msgid "Destroy an override value"
+msgstr ""
+
+msgid "Directly assigned to Host"
+msgstr ""
+
+msgid "Disable host configuration status turning to out of sync for %{cfgmgmt} after report does not arrive within configured interval"
+msgstr ""
+
+msgid "Disabled"
+msgstr "사용 안함"
+
+msgid "Edit %s"
+msgstr "%s 편집 "
+
+msgid "Edit Ansible Roles"
+msgstr ""
+
+msgid "Edit Ansible Variable"
+msgstr ""
+
+msgid "Edit Ansible roles"
+msgstr ""
+
+msgid "Enable web console"
+msgstr ""
+
+msgid "Enable/disable WinRM server certificate validation when running Ansible playbooks. You can override this on hosts by adding a parameter \"ansible_winrm_server_cert_validation\""
+msgstr ""
+
+msgid "Error!"
+msgstr ""
+
+msgid "Executed at"
+msgstr ""
+
+msgid "Failed to import roles and variables "
+msgstr ""
+
+msgid "Fetch Ansible playbooks available to be synced"
+msgstr ""
+
+msgid "Fetch Ansible roles available to be synced"
+msgstr ""
+
+msgid "For more advanced scheduling options"
+msgstr ""
+
+msgid "Foreman"
+msgstr ""
+
+msgid "Foreman will add this level of verbosity for additional debugging output when running Ansible playbooks."
+msgstr ""
+
+msgid "Foreman will use this template to schedule the report with Ansible inventory"
+msgstr ""
+
+msgid "Hash of input values of type input=>value"
+msgstr ""
+
+msgid "Hidden Value"
+msgstr ""
+
+msgid "Hide all values for this parameter."
+msgstr "이 매개 변수의 값을 모두 숨깁니다."
+
+msgid "Host assigned Ansible roles"
+msgstr ""
+
+msgid "Host group has no associated hosts"
+msgstr ""
+
+msgid "Host not found by id: %s"
+msgstr ""
+
+msgid "Hostgroups"
+msgstr "호스트 그룹 "
+
+msgid "Hosts"
+msgstr "호스트"
+
+msgid "IDs of associated ansible roles"
+msgstr ""
+
+msgid "IDs of hostgroups included in inventory"
+msgstr ""
+
+msgid "IDs of hostgroups to play roles on"
+msgstr ""
+
+msgid "IDs of hosts included in inventory"
+msgstr ""
+
+msgid "IDs of hosts to play roles on"
+msgstr ""
+
+msgid "If checked, will raise an error if there is no default value and no matcher provide a value."
+msgstr "체크되어 있을 경우 기본값이 없고 matcher가 값을 지정하지 않을 경우 오류가 표시됩니다."
+
+msgid "Import"
+msgstr "불러오기"
+
+msgid "Import Puppet classes"
+msgstr "Puppet 클래스 가져오기"
+
+msgid "Import Role"
+msgstr ""
+
+msgid "Import facts"
+msgstr "팩트 불러오기"
+
+msgid "Import from %s"
+msgstr "%s에서 가져오기 "
+
+msgid "Import playbooks has finished successfully"
+msgstr ""
+
+msgid "Import roles And Variables"
+msgstr ""
+
+msgid "Import roles and variables has finished successfully"
+msgstr ""
+
+msgid "Import roles and variables started: "
+msgstr ""
+
+msgid "Imported at"
+msgstr ""
+
+msgid "Imported?"
+msgstr ""
+
+msgid "Include default value when merging all matching values"
+msgstr "일치하는 모든 값을 병합할 때 기본값 포함"
+
+msgid "Include default value when merging all matching values."
+msgstr "일치하는 모든 값을 병합할 때 기본값을 포함합니다."
+
+msgid "Include/Exclude Tags"
+msgstr ""
+
+msgid "Include\\Exclude tags for Ansible run"
+msgstr ""
+
+msgid "Inherited from Hostgroup"
+msgstr ""
+
+msgid "Insights remediation on %{hosts_count} host(s) has finished successfully"
+msgstr ""
+
+msgid "Invalid, expected one of: %s"
+msgstr ""
+
+msgid "Invalid, expected to match a regex: %s"
+msgstr ""
+
+msgid "Inventory"
+msgstr ""
+
+msgid "Job Details"
+msgstr ""
+
+msgid "Jobs"
+msgstr "작업"
+
+msgid "Learn more about this in the documentation."
+msgstr "설명서에서 자세한 내용을 참조하십시오."
+
+msgid "Level"
+msgstr "레벨 "
+
+msgid "Level 1 (-v)"
+msgstr ""
+
+msgid "Level 2 (-vv)"
+msgstr ""
+
+msgid "Level 3 (-vvv)"
+msgstr ""
+
+msgid "Level 4 (-vvvv)"
+msgstr ""
+
+msgid "List Ansible roles"
+msgstr ""
+
+msgid "List Ansible variables"
+msgstr ""
+
+msgid "List all Ansible roles for a host"
+msgstr ""
+
+msgid "List all Ansible roles for a hostgroup"
+msgstr ""
+
+msgid "Mark the variable to be managed by Foreman. When the Ansible role of this variable is assigned to a host, the default value will be added to Ansible inventory as a host variable. Specify matchers to set a different value for such variable."
+msgstr ""
+
+msgid "Merge all matching values (only array/hash type)"
+msgstr "일치하는 모든 값 병합(배열/해시 유형만)"
+
+msgid "Message"
+msgstr "메세지 "
+
+msgid "Must not be in the past"
+msgstr ""
+
+msgid "Name"
+msgstr "이름 "
+
+msgid "Name of variable"
+msgstr "변수 이름"
+
+msgid "New Ansible Variable"
+msgstr ""
+
+msgid "Next Run"
+msgstr ""
+
+msgid ""
+"No Ansible Roles were found in Foreman. If you want to assign roles to your hosts,\n"
+"             you have to import them first."
+msgstr ""
+
+msgid "No Ansible roles assigned"
+msgstr ""
+
+msgid "No Ansible variables found for Host"
+msgstr ""
+
+msgid "No added or removed roles nor variables detected on %s."
+msgstr ""
+
+msgid "No added or removed roles nor variables."
+msgstr ""
+
+msgid "No additional data"
+msgstr ""
+
+msgid "No changes detected in specified Ansible Roles and their variables"
+msgstr ""
+
+msgid "No changes in variables detected on %s."
+msgstr ""
+
+msgid "No config job for Ansible roles scheduled"
+msgstr ""
+
+msgid "No previous job executions found"
+msgstr ""
+
+msgid "No proxy found to import variables from, ensure that the smart proxy has the Ansible feature enabled."
+msgstr ""
+
+msgid "No roles assigned directly to the host"
+msgstr ""
+
+msgid "Nothing Found!"
+msgstr ""
+
+msgid "Nothing to show"
+msgstr "표시할 것이 없습니다 "
+
+msgid "Notice that ansible roles run in check mode."
+msgstr ""
+
+msgid "Number of tasks which should be sent to the smart proxy in one request, if foreman_tasks_proxy_batch_trigger is enabled. If set, overrides foreman_tasks_proxy_batch_size setting for Ansible jobs."
+msgstr ""
+
+msgid "Only variables marked to Override are shown here."
+msgstr ""
+
+msgid "Optional Input Validator"
+msgstr ""
+
+msgid "Order"
+msgstr "순서"
+
+msgid "Override match"
+msgstr "일치 항목 덮어쓰기"
+
+msgid "Override the default value of the Ansible variable."
+msgstr ""
+
+msgid "Override value, required if omit is false"
+msgstr ""
+
+msgid "Overriden"
+msgstr ""
+
+msgid "Permission Denied"
+msgstr ""
+
+msgid "Permission denied"
+msgstr "권한이 거부되었습니다"
+
+msgid "Playbooks"
+msgstr ""
+
+msgid "Please request one of the required permissions listed below from a Foreman administrator:"
+msgstr "Foreman 관리자에게 아래에 나열된 필수 권한 중 하나를 요청하십시오."
+
+msgid "Post-provision timeout"
+msgstr ""
+
+msgid "Previously executed jobs"
+msgstr ""
+
+msgid "Prioritize Attribute Order"
+msgstr ""
+
+msgid "Private Key Path"
+msgstr ""
+
+msgid "Proxy not found"
+msgstr ""
+
+msgid "Proxy tasks batch size for Ansible"
+msgstr ""
+
+msgid "Remediation Plan"
+msgstr ""
+
+msgid "Remote action:"
+msgstr "원격 작업:"
+
+msgid "Remove"
+msgstr "삭제 "
+
+msgid "Remove Role"
+msgstr ""
+
+msgid "Remove all"
+msgstr ""
+
+msgid "Remove duplicate values (only array type)"
+msgstr "중복 값 삭제(배열 유형만)"
+
+msgid "Remove selected"
+msgstr ""
+
+msgid "Report format, defaults to '%s'"
+msgstr ""
+
+msgid "Request the following permissions from administrator: %s."
+msgstr ""
+
+msgid "Required field"
+msgstr ""
+
+msgid "Result"
+msgstr "결과 "
+
+msgid "Role ID"
+msgstr ""
+
+msgid "Roles"
+msgstr "역할 "
+
+msgid "Role|Name"
+msgstr "이름 "
+
+msgid "Run Ansible roles"
+msgstr ""
+
+msgid "Run all Ansible roles"
+msgstr ""
+
+msgid "Run all Ansible roles on hosts belonging to this host group"
+msgstr ""
+
+msgid "Run an Ansible playbook against given hosts"
+msgstr ""
+
+msgid "Run an Ansible playbook to enable web console on given hosts"
+msgstr ""
+
+msgid "Run playbook"
+msgstr ""
+
+msgid "Runs a given maintenance plan from Red Hat Access Insights given an ID."
+msgstr ""
+
+msgid "Runs all Ansible roles on a host"
+msgstr ""
+
+msgid "Runs all Ansible roles on a hostgroup"
+msgstr ""
+
+msgid "Runs all Ansible roles on hostgroups"
+msgstr ""
+
+msgid "Runs all Ansible roles on hosts"
+msgstr ""
+
+msgid "Runs an Ansible playbook which contains all the roles defined for a host"
+msgstr ""
+
+msgid "Schedule"
+msgstr "스케줄 "
+
+msgid "Schedule generating of Ansible Inventory report"
+msgstr ""
+
+msgid "Schedule recurring Ansible roles job"
+msgstr ""
+
+msgid "Schedule recurring job"
+msgstr ""
+
+msgid "Scheduled recurring jobs"
+msgstr ""
+
+msgid "Set the order in which values are resolved."
+msgstr "값을 확인하는 순서를 설정합니다."
+
+msgid "Show Ansible inventory for hostgroups"
+msgstr ""
+
+msgid "Show Ansible inventory for hosts"
+msgstr ""
+
+msgid "Show role"
+msgstr ""
+
+msgid "Show variable"
+msgstr ""
+
+msgid "Smart Proxy to fetch from"
+msgstr ""
+
+msgid "Smart Proxy to import from"
+msgstr ""
+
+msgid "Smart Proxy to sync from"
+msgstr ""
+
+msgid "Smart proxy id is required"
+msgstr ""
+
+msgid "Source"
+msgstr "소스 "
+
+msgid "Source attribute"
+msgstr ""
+
+msgid "Specify Matchers"
+msgstr ""
+
+msgid "State"
+msgstr "상태 "
+
+msgid "Submit"
+msgstr "보내기"
+
+msgid "Sync Ansible playbooks"
+msgstr ""
+
+msgid "Sync Ansible roles"
+msgstr ""
+
+msgid "Tags"
+msgstr "태그"
+
+msgid "Task"
+msgstr "작업"
+
+msgid "Task Details"
+msgstr "작업 상세 정보 "
+
+msgid "The order in which matchers keys are processed, first match wins.<br> You may use multiple attributes as a matcher key, for example, an order of <code>host group, environment</code> would expect a matcher such as <code>hostgroup = \"web servers\", environment = production</code>"
+msgstr "matcher 키가 처리되는 순서입니다. 먼저 일치하는 것이 우선합니다. <br> matcher 키로 여러 속성을 사용할 수 있습니다. 예를 들어 <code>host group, environment</code> 순서의 경우 <code>hostgroup = \"web servers\", environment = production</code>과 같은 matcher를 예상할 수 있습니다 "
+
+msgid "The order in which values are resolved"
+msgstr "값이 해결되는 순서 "
+
+msgid "There are no Ansible roles to play"
+msgstr ""
+
+msgid "There was a following error when assigning Ansible Roles: %s"
+msgstr ""
+
+msgid "There was a following error when changing Ansible variable override: %s"
+msgstr ""
+
+msgid "There was a following error when creating Ansible job: %s"
+msgstr ""
+
+msgid "There was a following error when deleting Ansible config job: %s"
+msgstr ""
+
+msgid "There was a following error when deleting Ansible variable override: %s"
+msgstr ""
+
+msgid "This Ansible role is inherited from host group"
+msgstr ""
+
+msgid "This Ansible role is inherited from parent host group"
+msgstr ""
+
+msgid "This job will run all the assigned Ansible roles."
+msgstr ""
+
+msgid "This list consists of host assigned roles and group assigned roles. Group assigned roles will always be executed prior to host assigned roles."
+msgstr ""
+
+msgid "Those roles will be excluded when importing roles from smart proxy, The expected input is comma separated values and you can use * wildcard metacharactersFor example: foo*, *b*,*bar"
+msgstr ""
+
+msgid "Timeout (in minutes) when hosts should have reported."
+msgstr ""
+
+msgid "Timeout (in seconds) to set when Foreman will trigger a play Ansible roles task after a host is fully provisioned. Set this to the maximum time you expect a host to take until it is ready after a reboot."
+msgstr ""
+
+msgid "Type"
+msgstr "유형 "
+
+msgid "Types of validation values"
+msgstr "검증 값의 유형"
+
+msgid "Types of variable values"
+msgstr "변수 값의 유형"
+
+msgid "Unable to get playbook's names from Ansible"
+msgstr ""
+
+msgid "Unable to get playbooks from Ansible"
+msgstr ""
+
+msgid "Unable to get roles from Ansible"
+msgstr ""
+
+msgid "Unable to get roles/variables from Ansible"
+msgstr ""
+
+msgid "Update"
+msgstr "업데이트 "
+
+msgid "Update Role Variables"
+msgstr ""
+
+msgid "Update Smart Proxy"
+msgstr ""
+
+msgid "Updates Ansible variable"
+msgstr ""
+
+msgid "Upgrade"
+msgstr ""
+
+msgid "Upgrade Capsules on given Capsule server hosts"
+msgstr ""
+
+msgid "Upgrade Capsules on given hosts"
+msgstr ""
+
+msgid "Use drag and drop to change order of the roles. Ordering of roles is respected for Ansible runs, inherited roles are always before those assigned directly"
+msgstr ""
+
+msgid "Use sync instead, to sync roles from Smart Proxy with Ansible feature enabled"
+msgstr ""
+
+msgid "Use this connection type by default when running Ansible playbooks. You can override this on hosts by adding a parameter \"ansible_connection\""
+msgstr ""
+
+msgid "Use this to supply a path to an SSH Private Key that Ansible will use in lieu of a password Override with \"ansible_ssh_private_key_file\" host parameter"
+msgstr ""
+
+msgid "Used to enforce certain values for the parameter values"
+msgstr "특정 값을 매개 변수 값에 적용하는 데 사용됩니다."
+
+msgid "Value"
+msgstr "값 "
+
+msgid "Value to use when there is no match."
+msgstr "일치하지 않는 경우 사용할 값입니다."
+
+msgid "Variables"
+msgstr "변수 "
+
+msgid "Variable|Name"
+msgstr ""
+
+msgid "Variable|Role"
+msgstr ""
+
+msgid "View inherited roles"
+msgstr ""
+
+msgid "When enabled the parameter is hidden in the UI"
+msgstr "활성화된 경우 매개 변수가 UI에서 숨겨집니다."
+
+msgid "Whether to override variable or not"
+msgstr ""
+
+msgid "WinRM cert Validation"
+msgstr ""
+
+msgid "You are not authorized to perform this action."
+msgstr "이 작업을 수행할 권한이 없습니다."
+
+msgid "You are not authorized to view the page. "
+msgstr ""
+
+msgid "daily"
+msgstr "매일 "
+
+msgid "false"
+msgstr ""
+
+msgid "hourly"
+msgstr "한 시간 마다 "
+
+msgid "is required"
+msgstr ""
+
+msgid "monthly"
+msgstr ""
+
+msgid "true"
+msgstr ""
+
+msgid "view all assigned roles"
+msgstr ""
+
+msgid "view remote execution page."
+msgstr ""
+
+msgid "view the task in progress"
+msgstr ""
+
+msgid "weekly"
+msgstr "매주 "

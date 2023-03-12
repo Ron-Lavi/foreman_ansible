@@ -1,0 +1,893 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the foreman_ansible package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# 47388d0d0847859fcc07f8955b27d2a7_d1cb104 <93875580def0fcc1a566b016c3948752_122921>, 2018
+# mbacovsky <martin.bacovsky@gmail.com>, 2018
+# Christina Gurski <Gurski_christina@yahoo.de>, 2019
+# 0868a4d1af5275b3f70b0a6dac4c99a4, 2019
+# Martin Zimmermann <martin.zimmermann@gmx.com>, 2019
+# Crited <Alexander.Stoll@netways.de>, 2019
+# Bernhard Suttner <bernhard.suttner@atix.de>, 2019
+# Lukas Kallies <github.com@luke-web.de>, 2021
+# simon11 <transifex@stieger.co>, 2022
+# Arnold Bechtoldt <mail@arnoldbechtoldt.com>, 2022
+# Patrick Dolinic, 2022
+# Wiederoder <stefanwiederoder@googlemail.com>, 2022
+# Bryan Kearney <bryan.kearney@gmail.com>, 2022
+# Ettore Atalan <atalanttore@googlemail.com>, 2022
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: foreman_ansible 10.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2018-11-14 21:36+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>, 2022\n"
+"Language-Team: German (https://www.transifex.com/foreman/teams/114/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%(selectedCount)s of %(totalCount)s items selected"
+msgstr ""
+
+msgid "%s ago"
+msgstr "vor %s"
+
+msgid "%{cfgmgmt} out of sync disabled"
+msgstr "%{cfgmgmt} nicht synchronisiert deaktiviert"
+
+msgid "(from host group)"
+msgstr ""
+
+msgid "A comma separated list of tags to use for Ansible run"
+msgstr ""
+
+msgid "Action with sub plans"
+msgstr "Aktion mit Unterplänen"
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "Add"
+msgstr "Hinzufügen"
+
+msgid "Add all"
+msgstr ""
+
+msgid "Add selected"
+msgstr ""
+
+msgid "Add, remove or reorder host assigned Ansible roles. This host has also group assigned roles that are not displayed here and will always be executed prior to host assigned roles."
+msgstr ""
+
+msgid "All assigned Ansible roles"
+msgstr ""
+
+msgid "Ansible"
+msgstr "Ansible"
+
+msgid "Ansible  playbooks names to be synced"
+msgstr ""
+
+msgid "Ansible Role"
+msgstr "Ansible Rolle"
+
+msgid "Ansible Roles"
+msgstr "Ansible Rollen"
+
+msgid "Ansible Roles were successfully assigned."
+msgstr ""
+
+msgid "Ansible Variable Details"
+msgstr "Ansible Variablen Details"
+
+msgid "Ansible Variable Details (Imported)"
+msgstr "Ansible Variablen Details (Importiert)"
+
+msgid "Ansible Variable not found by id: %s"
+msgstr ""
+
+msgid "Ansible Variables"
+msgstr "Ansible Variablen"
+
+msgid "Ansible check mode"
+msgstr ""
+
+msgid "Ansible job was successfully canceled."
+msgstr ""
+
+msgid "Ansible job was successfully created."
+msgstr ""
+
+msgid "Ansible provider specific inputs"
+msgstr ""
+
+msgid "Ansible report timeout"
+msgstr "Zeitüberschreitung für Ansible-Berichte"
+
+msgid "Ansible role"
+msgstr "Ansible Rolle"
+
+msgid "Ansible role names to be imported"
+msgstr ""
+
+msgid "Ansible role names to be synced"
+msgstr ""
+
+msgid "Ansible roles assigned directly to host"
+msgstr ""
+
+msgid "Ansible roles to assign to a host"
+msgstr "Ansible Rollen, die einem Host zugewiesen werden können"
+
+msgid "Ansible roles to assign to a hostgroup"
+msgstr "Ansible Rollen, die einer Hostgruppe zugewiesen werden können"
+
+msgid "Ansible roles to ignore"
+msgstr ""
+
+msgid "Ansible support in Foreman"
+msgstr "Ansible Unterstützung in Foreman"
+
+msgid "Ansible variable override successfully changed."
+msgstr ""
+
+msgid "Ansible variable override was successfully deleted."
+msgstr ""
+
+msgid "Ansible: Run Insights maintenance plan"
+msgstr "Ansible: Insights-Wartungsplan ausführen"
+
+msgid "Are you sure you want to cancel Ansible config job?"
+msgstr ""
+
+msgid "Are you sure you want to delete override for %s?"
+msgstr ""
+
+msgid "Assign roles directly to the host"
+msgstr ""
+
+msgid "Assigned Ansible Roles"
+msgstr ""
+
+msgid "Assigns Ansible roles to a host"
+msgstr "Weist einem Host Ansible-Rollen zu"
+
+msgid "Assigns Ansible roles to a hostgroup"
+msgstr "Weißt Ansible Rollen einer Hostgruppe zu"
+
+msgid "Available Ansible Roles"
+msgstr ""
+
+msgid "Available Ansible roles"
+msgstr ""
+
+msgid "Avoid duplicate values when merging them (only array type)?"
+msgstr "Doppelte Werte bei der Zusammenführung vermeiden (nur Array Typ)?"
+
+msgid "Before including these variables on your playbooks, Foreman will validate that your variables comply with the validation."
+msgstr "Bevor diese Variablen in Ihre Playbooks aufgenommen werden, überprüft Foreman, ob Ihre Variablen der Validierung entsprechen."
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Cancel Ansible config job"
+msgstr ""
+
+msgid "Changed Ansible roles"
+msgstr "Geänderte Ansible-Rollen"
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Configure Recurring Job"
+msgstr ""
+
+msgid "Confirm"
+msgstr "Bestätigen"
+
+msgid "Connection type"
+msgstr "Verbindungstyp"
+
+msgid "Continue to look for matches after first find (only array/hash type)? Note: merging overrides ignores all matchers that are omitted."
+msgstr "Nach dem ersten Treffer nach weiterhin nach Treffern suchen (nur Array-/Hash-Typ)? Hinweis: Das Zusammenlegen von Überschreibungen ignoriert alle Prüfwerte, die weggelassen werden."
+
+msgid "Could not run Ansible roles for %{host}"
+msgstr "Ansible-Rollen für %{host} konnten nicht ausgeführt werden"
+
+msgid "Create Ansible Variable"
+msgstr "Ansible Variable erstellen"
+
+msgid "Create Ansible variable"
+msgstr "Ansible Variable erstellen"
+
+msgid "Create an override value for a specific ansible variable"
+msgstr "Überschreibungswert für eine bestimmte Ansible-Variable erzeugen"
+
+msgid "DEPRECATED: Import Ansible roles"
+msgstr ""
+
+msgid "DEPRECATED: Import Ansible variables. This will only import variables for already existing roles, it will not import any new roles"
+msgstr ""
+
+msgid "DEPRECATED: Obsolete Ansible roles"
+msgstr ""
+
+msgid "DEPRECATED: Obsolete Ansible variables. This will only obsolete variables for already existing roles, it will not delete any old roles"
+msgstr ""
+
+msgid "Default Ansible inventory report template"
+msgstr "Standardvorlage für Ansible-Inventarberichte"
+
+msgid "Default Behavior"
+msgstr "Standardmäßiges Verhalten"
+
+msgid "Default value"
+msgstr "Standardwert"
+
+msgid "Default value of variable"
+msgstr "Standardwert der Variable"
+
+msgid "Default verbosity level"
+msgstr "Default verbosity level"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Delete %s?"
+msgstr "%s löschen?"
+
+msgid "Delete Ansible variable override"
+msgstr ""
+
+msgid "Deletes Ansible role"
+msgstr "Ansible Rolle löschen"
+
+msgid "Deletes Ansible variable"
+msgstr "Ansible Variable löschen"
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "Description of variable"
+msgstr "Beschreibung der Variable"
+
+msgid "Destroy an override value"
+msgstr "Überschreibungswert löschen"
+
+msgid "Directly assigned to Host"
+msgstr ""
+
+msgid "Disable host configuration status turning to out of sync for %{cfgmgmt} after report does not arrive within configured interval"
+msgstr "Deaktivieren Sie den Hostkonfigurationsstatus, der für %{cfgmgmt} nicht synchronisiert wird, nachdem der Bericht nicht innerhalb des konfigurierten Intervalls eintrifft"
+
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+msgid "Edit %s"
+msgstr "%s bearbeiten"
+
+msgid "Edit Ansible Roles"
+msgstr ""
+
+msgid "Edit Ansible Variable"
+msgstr "Ansible Variable ändern"
+
+msgid "Edit Ansible roles"
+msgstr ""
+
+msgid "Enable web console"
+msgstr ""
+
+msgid "Enable/disable WinRM server certificate validation when running Ansible playbooks. You can override this on hosts by adding a parameter \"ansible_winrm_server_cert_validation\""
+msgstr "Aktivieren/deaktivieren Sie die Validierung des WinRM-Serverzertifikats, wenn Sie Ansible-Playbooks ausführen. Sie können dies auf Hosts überschreiben, indem Sie einen Parameter \"ansible_winrm_server_cert_validation\" hinzufügen."
+
+msgid "Error!"
+msgstr "Fehler!"
+
+msgid "Executed at"
+msgstr ""
+
+msgid "Failed to import roles and variables "
+msgstr ""
+
+msgid "Fetch Ansible playbooks available to be synced"
+msgstr ""
+
+msgid "Fetch Ansible roles available to be synced"
+msgstr ""
+
+msgid "For more advanced scheduling options"
+msgstr ""
+
+msgid "Foreman"
+msgstr "Foreman"
+
+msgid "Foreman will add this level of verbosity for additional debugging output when running Ansible playbooks."
+msgstr "Foreman fügt diese Ausführlichkeitsstufe für zusätzliche Debugging-Ausgaben hinzu, wenn Ansible-Playbooks ausgeführt werden."
+
+msgid "Foreman will use this template to schedule the report with Ansible inventory"
+msgstr "Foreman verwendet diese Vorlage, um den Bericht mit Ansible-Inventar zu planen"
+
+msgid "Hash of input values of type input=>value"
+msgstr "Hash von Eingabewerten vom Typ input=>value"
+
+msgid "Hidden Value"
+msgstr "Verborgener Wert"
+
+msgid "Hide all values for this parameter."
+msgstr "Alle Werte für diesen Parameter verbergen."
+
+msgid "Host assigned Ansible roles"
+msgstr ""
+
+msgid "Host group has no associated hosts"
+msgstr "Die Hostgruppe hat keine zugeordneten Hosts"
+
+msgid "Host not found by id: %s"
+msgstr ""
+
+msgid "Hostgroups"
+msgstr "Hostgruppen"
+
+msgid "Hosts"
+msgstr "Hosts"
+
+msgid "IDs of associated ansible roles"
+msgstr "IDs der zugehörigen Ansible-Rollen"
+
+msgid "IDs of hostgroups included in inventory"
+msgstr "IDs der Hostgruppen, welche im Inventar enthalten sind"
+
+msgid "IDs of hostgroups to play roles on"
+msgstr "IDs von Hostgruppen, auf denen Rollen gespielt werden sollen"
+
+msgid "IDs of hosts included in inventory"
+msgstr "IDs der Hosts, welche im Inventar enthalten sind"
+
+msgid "IDs of hosts to play roles on"
+msgstr "IDs von Hosts, auf denen Rollen gespielt werden sollen"
+
+msgid "If checked, will raise an error if there is no default value and no matcher provide a value."
+msgstr "Falls aktiviert, wird dies einen Fehler erzeugen, wenn kein Standardwert vorhanden ist und kein Treffer einen Wert vorschlägt."
+
+msgid "Import"
+msgstr "Import"
+
+msgid "Import Puppet classes"
+msgstr "Puppet-Klassen importieren"
+
+msgid "Import Role"
+msgstr ""
+
+msgid "Import facts"
+msgstr "Fakten importieren"
+
+msgid "Import from %s"
+msgstr "Importieren aus %s"
+
+msgid "Import playbooks has finished successfully"
+msgstr ""
+
+msgid "Import roles And Variables"
+msgstr ""
+
+msgid "Import roles and variables has finished successfully"
+msgstr ""
+
+msgid "Import roles and variables started: "
+msgstr ""
+
+msgid "Imported at"
+msgstr "Importiert um"
+
+msgid "Imported?"
+msgstr "Importiert?"
+
+msgid "Include default value when merging all matching values"
+msgstr "Standardwert einschließen, wenn alle übereinstimmenden Werte zusammengeführt werden"
+
+msgid "Include default value when merging all matching values."
+msgstr "Standardwert bei der Zusammenführung aller übereinstimmenden Werte einschließen."
+
+msgid "Include/Exclude Tags"
+msgstr ""
+
+msgid "Include\\Exclude tags for Ansible run"
+msgstr ""
+
+msgid "Inherited from Hostgroup"
+msgstr ""
+
+msgid "Insights remediation on %{hosts_count} host(s) has finished successfully"
+msgstr "Insights-Korrektur auf %{hosts_count} Host(s) wurde erfolgreich abgeschlossen"
+
+msgid "Invalid, expected one of: %s"
+msgstr ""
+
+msgid "Invalid, expected to match a regex: %s"
+msgstr ""
+
+msgid "Inventory"
+msgstr ""
+
+msgid "Job Details"
+msgstr "Job Details"
+
+msgid "Jobs"
+msgstr "Jobs"
+
+msgid "Learn more about this in the documentation."
+msgstr "Mehr dazu in der Dokumentation."
+
+msgid "Level"
+msgstr "Stufe"
+
+msgid "Level 1 (-v)"
+msgstr "Level 1 (-v)"
+
+msgid "Level 2 (-vv)"
+msgstr "Level 2 (-vv)"
+
+msgid "Level 3 (-vvv)"
+msgstr "Level 3 (-vvv)"
+
+msgid "Level 4 (-vvvv)"
+msgstr "Level 4 (-vvvv)"
+
+msgid "List Ansible roles"
+msgstr "Ansible Rollen auflisten"
+
+msgid "List Ansible variables"
+msgstr "Ansible Variablen auflisten"
+
+msgid "List all Ansible roles for a host"
+msgstr "Auflisten aller Ansible Rollen eines Hosts"
+
+msgid "List all Ansible roles for a hostgroup"
+msgstr "Auflisten aller Ansible Rollen einer Hostgruppe"
+
+msgid "Mark the variable to be managed by Foreman. When the Ansible role of this variable is assigned to a host, the default value will be added to Ansible inventory as a host variable. Specify matchers to set a different value for such variable."
+msgstr "Markieren Sie die von Foreman zu verwaltende Variable. Wenn die Ansible-Rolle dieser Variablen einem Host zugewiesen wird, wird der Standardwert als Hostvariable zum Ansible-Inventar hinzugefügt. Geben Sie Matcher an, um einen anderen Wert für eine solche Variable festzulegen."
+
+msgid "Merge all matching values (only array/hash type)"
+msgstr "Alle übereinstimmenden Werte (nur vom Typ Array/Hash) zusammenführen"
+
+msgid "Message"
+msgstr "Nachricht"
+
+msgid "Must not be in the past"
+msgstr ""
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Name of variable"
+msgstr "Name der Variable"
+
+msgid "New Ansible Variable"
+msgstr "Neue Ansible Variable"
+
+msgid "Next Run"
+msgstr ""
+
+msgid ""
+"No Ansible Roles were found in Foreman. If you want to assign roles to your hosts,\n"
+"             you have to import them first."
+msgstr ""
+
+msgid "No Ansible roles assigned"
+msgstr ""
+
+msgid "No Ansible variables found for Host"
+msgstr ""
+
+msgid "No added or removed roles nor variables detected on %s."
+msgstr ""
+
+msgid "No added or removed roles nor variables."
+msgstr ""
+
+msgid "No additional data"
+msgstr ""
+
+msgid "No changes detected in specified Ansible Roles and their variables"
+msgstr ""
+
+msgid "No changes in variables detected on %s."
+msgstr "Keine Änderungen an den Variablen erkannt auf %s."
+
+msgid "No config job for Ansible roles scheduled"
+msgstr ""
+
+msgid "No previous job executions found"
+msgstr ""
+
+msgid "No proxy found to import variables from, ensure that the smart proxy has the Ansible feature enabled."
+msgstr "Es wurde kein Proxy gefunden, von dem Variablen importiert werden können. Auf dem Smart-Proxy muss das Ansible-Feature aktiviert sein."
+
+msgid "No roles assigned directly to the host"
+msgstr ""
+
+msgid "Nothing Found!"
+msgstr ""
+
+msgid "Nothing to show"
+msgstr "Nichts anzuzeigen"
+
+msgid "Notice that ansible roles run in check mode."
+msgstr ""
+
+msgid "Number of tasks which should be sent to the smart proxy in one request, if foreman_tasks_proxy_batch_trigger is enabled. If set, overrides foreman_tasks_proxy_batch_size setting for Ansible jobs."
+msgstr ""
+
+msgid "Only variables marked to Override are shown here."
+msgstr ""
+
+msgid "Optional Input Validator"
+msgstr "Optionaler Eingabe-Validator"
+
+msgid "Order"
+msgstr "Reihenfolge"
+
+msgid "Override match"
+msgstr "Übereinstimmung überschreiben"
+
+msgid "Override the default value of the Ansible variable."
+msgstr "Überschreibe den Standardwert der Ansible Variable."
+
+msgid "Override value, required if omit is false"
+msgstr "Überschreibungswert, wird benötigt falls der Parameter \"Übergehen\" den Wert \"false\" hat"
+
+msgid "Overriden"
+msgstr "Überschreiben"
+
+msgid "Permission Denied"
+msgstr ""
+
+msgid "Permission denied"
+msgstr "Erlaubnis verweigert"
+
+msgid "Playbooks"
+msgstr ""
+
+msgid "Please request one of the required permissions listed below from a Foreman administrator:"
+msgstr "Bitte fordern Sie eine der erforderlichen Berechtigungen unterhalb bei einem Foreman-Administrator an:"
+
+msgid "Post-provision timeout"
+msgstr "Zeitüberschreitung nach der Bereitstellung"
+
+msgid "Previously executed jobs"
+msgstr ""
+
+msgid "Prioritize Attribute Order"
+msgstr "Priorisiere Eigenschaft-Reihenfolge"
+
+msgid "Private Key Path"
+msgstr "Privat-Key Pfad"
+
+msgid "Proxy not found"
+msgstr "Kein Proxy gefunden"
+
+msgid "Proxy tasks batch size for Ansible"
+msgstr ""
+
+msgid "Remediation Plan"
+msgstr "Sanierungsplan"
+
+msgid "Remote action:"
+msgstr "Entfernte Aktion"
+
+msgid "Remove"
+msgstr "Entfernen"
+
+msgid "Remove Role"
+msgstr ""
+
+msgid "Remove all"
+msgstr ""
+
+msgid "Remove duplicate values (only array type)"
+msgstr "Duplikate (nur vom Typ Array) entfernen"
+
+msgid "Remove selected"
+msgstr ""
+
+msgid "Report format, defaults to '%s'"
+msgstr "Berichtsformat, standardmäßig zu '%s'"
+
+msgid "Request the following permissions from administrator: %s."
+msgstr ""
+
+msgid "Required field"
+msgstr ""
+
+msgid "Result"
+msgstr "Ergebnis"
+
+msgid "Role ID"
+msgstr "Rollen-Kennung"
+
+msgid "Roles"
+msgstr "Rollen"
+
+msgid "Role|Name"
+msgstr "Name"
+
+msgid "Run Ansible roles"
+msgstr "Ansible-Rollen ausführen"
+
+msgid "Run all Ansible roles"
+msgstr "Führen Sie alle Ansible-Rollen aus"
+
+msgid "Run all Ansible roles on hosts belonging to this host group"
+msgstr "Führen Sie alle Ansible-Rollen auf Hosts aus, die zu dieser Hostgruppe gehören"
+
+msgid "Run an Ansible playbook against given hosts"
+msgstr "Führen Sie ein Ansible-Playbook gegen bestimmte Hosts aus"
+
+msgid "Run an Ansible playbook to enable web console on given hosts"
+msgstr ""
+
+msgid "Run playbook"
+msgstr "Playbook ausführen"
+
+msgid "Runs a given maintenance plan from Red Hat Access Insights given an ID."
+msgstr "Führt einen bestimmten Wartungsplan von Red Hat Access Insights mit einer ID aus."
+
+msgid "Runs all Ansible roles on a host"
+msgstr "Führt alle Ansible-Rollen auf einem Host aus"
+
+msgid "Runs all Ansible roles on a hostgroup"
+msgstr "Führt alle Ansible-Rollen auf einer Hostgruppe aus"
+
+msgid "Runs all Ansible roles on hostgroups"
+msgstr "Führt alle Ansible-Rollen auf Hostgruppen aus"
+
+msgid "Runs all Ansible roles on hosts"
+msgstr "Führt alle Ansible-Rollen auf Hosts aus"
+
+msgid "Runs an Ansible playbook which contains all the roles defined for a host"
+msgstr "Führt ein Ansible-Playbook aus, das alle für einen Host definierten Rollen enthält"
+
+msgid "Schedule"
+msgstr "Plan"
+
+msgid "Schedule generating of Ansible Inventory report"
+msgstr "Planen Sie die Erstellung des Ansible-Inventarberichts"
+
+msgid "Schedule recurring Ansible roles job"
+msgstr ""
+
+msgid "Schedule recurring job"
+msgstr ""
+
+msgid "Scheduled recurring jobs"
+msgstr ""
+
+msgid "Set the order in which values are resolved."
+msgstr "Reihenfolge festlegen, in der die Werte aufgelöst werden."
+
+msgid "Show Ansible inventory for hostgroups"
+msgstr "Zeige das Ansible-Inventar der Hostgruppen"
+
+msgid "Show Ansible inventory for hosts"
+msgstr "Zeige das Ansible-Inventar der Hosts"
+
+msgid "Show role"
+msgstr "Zeige Rolle"
+
+msgid "Show variable"
+msgstr "Variable anzeigen"
+
+msgid "Smart Proxy to fetch from"
+msgstr "Smart-Proxy von dem bezogen wird"
+
+msgid "Smart Proxy to import from"
+msgstr "Smart-Proxy von dem importiert wird"
+
+msgid "Smart Proxy to sync from"
+msgstr ""
+
+msgid "Smart proxy id is required"
+msgstr "Smart-Proxy-Kennung wird benötigt"
+
+msgid "Source"
+msgstr "Quelle"
+
+msgid "Source attribute"
+msgstr ""
+
+msgid "Specify Matchers"
+msgstr "Prüfwert spezifizieren"
+
+msgid "State"
+msgstr "Status"
+
+msgid "Submit"
+msgstr "Absenden"
+
+msgid "Sync Ansible playbooks"
+msgstr ""
+
+msgid "Sync Ansible roles"
+msgstr ""
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Task"
+msgstr "Task"
+
+msgid "Task Details"
+msgstr "Taskdetails"
+
+msgid "The order in which matchers keys are processed, first match wins.<br> You may use multiple attributes as a matcher key, for example, an order of <code>host group, environment</code> would expect a matcher such as <code>hostgroup = \"web servers\", environment = production</code>"
+msgstr "Die Reihenfolge, in der Prüfwertschlüssel verarbeitet werden. Die erste Übereinstimmung ist maßgeblich.<br> Sie können mehrere Attribute als Prüfwertschlüssel verwenden. Beispielsweise würde die Reihenfolge <code>host group, environment</code> einen Prüfwert wie etwa <code>hostgroup = \"web servers\", environment = production</code> erwarten."
+
+msgid "The order in which values are resolved"
+msgstr "Reihenfolge, in der Werte aufgelöst werden"
+
+msgid "There are no Ansible roles to play"
+msgstr "Es gibt keine Ansible-Rollen zu spielen"
+
+msgid "There was a following error when assigning Ansible Roles: %s"
+msgstr ""
+
+msgid "There was a following error when changing Ansible variable override: %s"
+msgstr ""
+
+msgid "There was a following error when creating Ansible job: %s"
+msgstr ""
+
+msgid "There was a following error when deleting Ansible config job: %s"
+msgstr ""
+
+msgid "There was a following error when deleting Ansible variable override: %s"
+msgstr ""
+
+msgid "This Ansible role is inherited from host group"
+msgstr ""
+
+msgid "This Ansible role is inherited from parent host group"
+msgstr ""
+
+msgid "This job will run all the assigned Ansible roles."
+msgstr ""
+
+msgid "This list consists of host assigned roles and group assigned roles. Group assigned roles will always be executed prior to host assigned roles."
+msgstr ""
+
+msgid "Those roles will be excluded when importing roles from smart proxy, The expected input is comma separated values and you can use * wildcard metacharactersFor example: foo*, *b*,*bar"
+msgstr ""
+
+msgid "Timeout (in minutes) when hosts should have reported."
+msgstr "Timeout (in Minuten), wann Hosts hätten melden sollen."
+
+msgid "Timeout (in seconds) to set when Foreman will trigger a play Ansible roles task after a host is fully provisioned. Set this to the maximum time you expect a host to take until it is ready after a reboot."
+msgstr "Timeout (in Sekunden), um festzulegen, wann Foreman eine Ansible-Rollen-Aufgabe auslöst, nachdem ein Host vollständig bereitgestellt wurde. Stellen Sie hier die maximale Zeit ein, die ein Host voraussichtlich braucht, bis er nach einem Neustart bereit ist."
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Types of validation values"
+msgstr "Typen von Validierungswerten"
+
+msgid "Types of variable values"
+msgstr "Typen von Variablenwerten"
+
+msgid "Unable to get playbook's names from Ansible"
+msgstr ""
+
+msgid "Unable to get playbooks from Ansible"
+msgstr ""
+
+msgid "Unable to get roles from Ansible"
+msgstr "Rollen von Ansible können nicht abgerufen werden"
+
+msgid "Unable to get roles/variables from Ansible"
+msgstr "Rollen/Variablen von Ansible können nicht abgerufen werden"
+
+msgid "Update"
+msgstr "Aktualisieren"
+
+msgid "Update Role Variables"
+msgstr ""
+
+msgid "Update Smart Proxy"
+msgstr ""
+
+msgid "Updates Ansible variable"
+msgstr "Ansible Variable aktualisieren"
+
+msgid "Upgrade"
+msgstr ""
+
+msgid "Upgrade Capsules on given Capsule server hosts"
+msgstr ""
+
+msgid "Upgrade Capsules on given hosts"
+msgstr ""
+
+msgid "Use drag and drop to change order of the roles. Ordering of roles is respected for Ansible runs, inherited roles are always before those assigned directly"
+msgstr ""
+
+msgid "Use sync instead, to sync roles from Smart Proxy with Ansible feature enabled"
+msgstr ""
+
+msgid "Use this connection type by default when running Ansible playbooks. You can override this on hosts by adding a parameter \"ansible_connection\""
+msgstr "Verwenden Sie diesen Verbindungstyp standardmäßig, wenn Sie Ansible-Playbooks ausführen. Sie können dies auf Hosts überschreiben, indem Sie einen Parameter \"ansible_connection\" hinzufügen."
+
+msgid "Use this to supply a path to an SSH Private Key that Ansible will use in lieu of a password Override with \"ansible_ssh_private_key_file\" host parameter"
+msgstr "Verwenden Sie dies, um einen Pfad zu einem privaten SSH-Schlüssel anzugeben, den Ansible anstelle eines Kennworts verwendet. Überschreiben Sie den Hostparameter \"ansible_ssh_private_key_file\""
+
+msgid "Used to enforce certain values for the parameter values"
+msgstr "Verwendet, um bestimmte Werte für die Parameterwerte umzusetzen"
+
+msgid "Value"
+msgstr "Wert"
+
+msgid "Value to use when there is no match."
+msgstr "Zu verwendender Wert, falls es keine Übereinstimmung gibt"
+
+msgid "Variables"
+msgstr "Variablen"
+
+msgid "Variable|Name"
+msgstr "Variablenname"
+
+msgid "Variable|Role"
+msgstr "Variable|Rolle"
+
+msgid "View inherited roles"
+msgstr ""
+
+msgid "When enabled the parameter is hidden in the UI"
+msgstr "Wenn aktiviert, so ist der Parameter im UI verborgen "
+
+msgid "Whether to override variable or not"
+msgstr "Soll die Variable überschreiben werden oder nicht"
+
+msgid "WinRM cert Validation"
+msgstr "WinRM Zertifikatsbestätigung"
+
+msgid "You are not authorized to perform this action."
+msgstr "Sie sind nicht berechtigt, diese Aktion durchzuführen."
+
+msgid "You are not authorized to view the page. "
+msgstr ""
+
+msgid "daily"
+msgstr "täglich"
+
+msgid "false"
+msgstr ""
+
+msgid "hourly"
+msgstr "stündlich"
+
+msgid "is required"
+msgstr ""
+
+msgid "monthly"
+msgstr ""
+
+msgid "true"
+msgstr ""
+
+msgid "view all assigned roles"
+msgstr ""
+
+msgid "view remote execution page."
+msgstr ""
+
+msgid "view the task in progress"
+msgstr ""
+
+msgid "weekly"
+msgstr "wöchentlich"

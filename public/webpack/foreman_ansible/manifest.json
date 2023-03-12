@@ -1,0 +1,31 @@
+{
+  "assetsByChunkName": {
+    "foreman-vendor": [
+      "foreman-vendor.bundle-v10.1.7-production-57ed7676cc22ce47f0a6.css",
+      "foreman-vendor.bundle-v10.1.7-production-57ed7676cc22ce47f0a6.js",
+      "foreman-vendor.bundle-v10.1.7-production-57ed7676cc22ce47f0a6.css.map",
+      "foreman-vendor.bundle-v10.1.7-production-57ed7676cc22ce47f0a6.js.map"
+    ],
+    "foreman_ansible": [
+      "foreman_ansible/foreman_ansible-541d635707e15a9c1705.js",
+      "foreman_ansible/foreman_ansible-541d635707e15a9c1705.css",
+      "foreman_ansible/foreman_ansible-541d635707e15a9c1705.js.map"
+    ],
+    "bundle": [
+      "foreman_ansible/bundle-cfcd46074ead5b62d1c7.js",
+      "foreman_ansible/bundle-cfcd46074ead5b62d1c7.css",
+      "foreman_ansible/bundle-cfcd46074ead5b62d1c7.js.map"
+    ],
+    "foreman_ansible:global": [
+      "foreman_ansible/foreman_ansible:global-21e7eaa14cb04d2687e4.js",
+      "foreman_ansible/foreman_ansible:global-21e7eaa14cb04d2687e4.css",
+      "foreman_ansible/foreman_ansible:global-21e7eaa14cb04d2687e4.js.map"
+    ],
+    "vendor": [
+      "foreman_ansible/vendor-55a283fc77bdc572d258.js",
+      "foreman_ansible/vendor-55a283fc77bdc572d258.js.map"
+    ]
+  },
+  "errors": [],
+  "warnings": []
+}
