@@ -33,7 +33,8 @@ if defined? ForemanRemoteExecution
             ),
             :name => host.name,
             :check_mode => host.host_param('ansible_roles_check_mode'),
-            :cleanup_working_dirs => cleanup_working_dirs?(host)
+            :cleanup_working_dirs => cleanup_working_dirs?(host),
+            :vault_password_file => '/etc/foreman-proxy/pass_file.txt'
           )
         end
 
